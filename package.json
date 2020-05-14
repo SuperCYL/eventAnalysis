@@ -1,0 +1,441 @@
+{
+  "name": "@hk-componentPackage/eventAnalysis",
+  "version": "0.0.5",
+  "dependencies": {
+    "bcore": "0.0.18",
+    "jquery": "2.1.4",
+    "lodash": "4.6.1"
+  },
+  "datav": {
+    "cn_name": "eventAnalysis",
+    "icon": "",
+    "protocol": 2,
+    "type": [
+      "regular"
+    ],
+    "view": {
+      "width": "683",
+      "height": "427",
+      "minWidth": "200",
+      "minHeight": "100"
+    },
+    "apis": {
+      "source": {
+        "handler": "render",
+        "description": "接口描述",
+        "fields": {
+          "value": {
+            "description": "值说明"
+          }
+        }
+      }
+    },
+    "config": {
+      "size": {
+        "name": "字号",
+        "type": "number",
+        "default": 22,
+        "range": [
+          10,
+          100
+        ]
+      },
+      "color": {
+        "name": "正文字体颜色",
+        "type": "color",
+        "default": "#fff"
+      }
+    },
+    "events": {
+      "itemClick": {
+        "description": "点击事件",
+        "fields": {
+          "value": {
+            "id": "唯一标示",
+            "value": "标题",
+            "image": "图片链接"
+          }
+        }
+      },
+      "rollEvent": {                       
+        "description": "滚动事件",          
+        "fields": {                         
+          "value": {   
+            "item":{}               
+          }
+        }
+      }
+    },
+    "api_data": {
+      "source": [
+        {
+          "eventId": "5a2dede180044b86a46e7a0147da035e",
+          "eventName": "快递柜进入“收费时代",
+          "eventPlace": "深圳市;杭州市;上海市",
+          "eventTime": "2020-04-30 00:00:00",
+          "eventStatisticsStartTime": "2020-04-28 00:00:00",
+          "eventStatisticsEndTime": "2020-05-28 00:00:00",
+          "eventPerson": "马云;马化腾;雷军",
+          "eventInstitutions": "阿里巴巴;腾讯;小米",
+          "eventSummary": "深圳市丰巢科技有限公司（下简称丰巢）将于4月30日推出会员服务，普通用户可以免费保管用户包裹12小时，超时后，每12小时收取0.5元，3元封顶，会员用户月卡每月5元，季卡12元，7天长时存放。4月29日，相关消息经媒体报道后引发舆论争议。",
+          "eventCover": "https://pics3.baidu.com/feed/bf096b63f6246b60644d33177d638c4a500fa2b0.jpeg?token=7a6912445cd6c2d2757cf8775541f0d3",
+          "relatedInstitution": "阿里巴巴;腾讯;小米",
+          "relatedPerson": "马云;马化腾;雷军",
+          "relatedPlace": "杭州;北京;武汉",
+          "relatedDepartmentCount": 3,
+          "relatedDepartmentFirst": "阿里巴巴",
+          "relatedDepartmentMain": "腾讯",
+          "screenEventTrackVos": [
+            {
+              "id": "8fb2586268d44dcf9d3d257e6e07ee2e",
+              "date": "2020-05-11 00:00:00",
+              "title": "快递柜使用步入“收费时代” 一步之遥为何多出一笔费用",
+              "summary": "自4月30日起，“丰巢”快递柜也开始收费了：普通用户可免费存放12小时，逾期后每12小时收取0.5元，3元封顶；会员用户可办理月卡5元、季卡12元，享有7天免费存放服务。",
+              "articleId": "111",
+              "eventId": "5a2dede180044b86a46e7a0147da035e"
+            },
+            {
+              "id": "249a6616e6544c38a8161bf64b826bfa",
+              "date": "2020-05-09 00:00:00",
+              "title": "快递柜收费时代来了！丰巢：超半天就收，3元封顶！",
+              "summary": "最近，传出了丰巢拟收购中邮智递的消息，而且收购完成后，快递柜的两大巨头丰巢和速递易将实现整合，形成一家独大局面。目前，这两家快递柜都对超时取件收取一定的保管费，那么快递柜寡头出现后，快件投递进快递柜会不会成为行业趋势？市民对此又有何看法呢？",
+              "articleId": "333",
+              "eventId": "5a2dede180044b86a46e7a0147da035e"
+            },
+            {
+              "id": "b71bba0b6ccb48e680acf17f17d16d99",
+              "date": "2020-05-09 00:00:00",
+              "title": "快递柜进入“收费时代”？网友吵翻天",
+              "summary": "深圳市丰巢科技有限公司（下简称丰巢）将于4月30日推出会员服务，普通用户可以免费保管用户包裹12小时，超时后，每12小时收取0.5元，3元封顶，会员用户月卡每月5元，季卡12元，7天长时存放。4月29日，相关消息经媒体报道后引发舆论争议。",
+              "articleId": "222",
+              "eventId": "5a2dede180044b86a46e7a0147da035e"
+            },
+            {
+              "id": "0c15d2ab4cbb4c8abb4b8fde39fe635b",
+              "date": "2020-05-08 00:00:00",
+              "title": "三问丰巢超时收费：智能快递柜全面开启“收费时代”，还有多远？",
+              "summary": "央广网北京5月7日消息(记者王晶)在疫情期间,无接触配送的兴起,再次凸显了快递柜的重要性。但眼下,“免费的午餐”要结束了。",
+              "articleId": "444",
+              "eventId": "5a2dede180044b86a46e7a0147da035e"
+            }
+          ],
+          "screenEventEmotionVos": [
+            {
+              "id": "0724c9bc99ca483a9a2ce3175cd916a4",
+              "emotionValue": -15,
+              "date": "2020-04-28 00:00:00",
+              "eventId": "5a2dede180044b86a46e7a0147da035e"
+            },
+            {
+              "id": "219f9f1d365e4d5085f085b79adcb1d2",
+              "emotionValue": -5,
+              "date": "2020-04-29 00:00:00",
+              "eventId": "5a2dede180044b86a46e7a0147da035e"
+            },
+            {
+              "id": "7455ec7ff8a741018d069a60e1f2185e",
+              "emotionValue": -10,
+              "date": "2020-04-30 00:00:00",
+              "eventId": "5a2dede180044b86a46e7a0147da035e"
+            },
+            {
+              "id": "ec684676cc3145a3b690be57ecab7ea6",
+              "emotionValue": -12,
+              "date": "2020-05-01 00:00:00",
+              "eventId": "5a2dede180044b86a46e7a0147da035e"
+            },
+            {
+              "id": "dba479ba31a44d2d8d419d2f0470ed67",
+              "emotionValue": -7,
+              "date": "2020-05-02 00:00:00",
+              "eventId": "5a2dede180044b86a46e7a0147da035e"
+            }
+          ],
+          "screenEventPropagationAnalysisVos": [
+            {
+              "id": "b3d24c37172b44098c5c8f9ede334b9b",
+              "date": "2020-04-28 00:00:00",
+              "reportAmount": 50,
+              "eventId": "5a2dede180044b86a46e7a0147da035e"
+            },
+            {
+              "id": "edb2730fb400467880e947b441b41ba7",
+              "date": "2020-04-29 00:00:00",
+              "reportAmount": 146,
+              "eventId": "5a2dede180044b86a46e7a0147da035e"
+            },
+            {
+              "id": "38265e3995d14534b2515a5db559edce",
+              "date": "2020-04-30 00:00:00",
+              "reportAmount": 263,
+              "eventId": "5a2dede180044b86a46e7a0147da035e"
+            },
+            {
+              "id": "82562bf27d4b4158949a026040ccb15e",
+              "date": "2020-05-01 00:00:00",
+              "reportAmount": 349,
+              "eventId": "5a2dede180044b86a46e7a0147da035e"
+            },
+            {
+              "id": "1ad2afbe7e1247c09611813ddfdd5a68",
+              "date": "2020-05-02 00:00:00",
+              "reportAmount": 553,
+              "eventId": "5a2dede180044b86a46e7a0147da035e"
+            }
+          ],
+          "articleChannel": {
+            "微信": 25000,
+            "客户端": 20000,
+            "数字报": 15000,
+            "网站": 35000
+          }
+        },
+        {
+          "eventId": "03d2627101d740d3b2d3b352d03aa855",
+          "eventName": "特朗普要求所有白宫人员戴口罩 自己仍然不戴",
+          "eventPlace": "纽约;洛杉矶;芝加哥",
+          "eventTime": "2020-05-12 00:00:00",
+          "eventStatisticsStartTime": "2020-05-10 00:00:00",
+          "eventStatisticsEndTime": "2020-05-28 00:00:00",
+          "eventPerson": "特朗普;川建国;奥观海",
+          "eventInstitutions": "阿里巴巴;腾讯;小米",
+          "eventSummary": "深圳市丰巢科技有限公司（下简称丰巢）将于4月30日推出会员服务，普通用户可以免费保管用户包裹12小时，超时后，每12小时收取0.5元，3元封顶，会员用户月卡每月5元，季卡12元，7天长时存放。4月29日，相关消息经媒体报道后引发舆论争议。",
+          "eventCover": "https://ask.qcloudimg.com/http-save/developer-news/a7tal3ohjp.jpeg?imageView2/2/w/1620",
+          "relatedInstitution": "阿里巴巴;腾讯;小米",
+          "relatedPerson": "马云;马化腾;雷军",
+          "relatedPlace": "杭州;北京;武汉",
+          "relatedDepartmentCount": 3,
+          "relatedDepartmentFirst": "阿里巴巴",
+          "relatedDepartmentMain": "腾讯",
+          "screenEventTrackVos": [
+            {
+              "id": "a6751d70cd804cc99370e0d9a237cb16",
+              "date": "2020-05-11 00:00:00",
+              "title": "快递柜使用步入“收费时代” 一步之遥为何多出一笔费用",
+              "summary": "自4月30日起，“丰巢”快递柜也开始收费了：普通用户可免费存放12小时，逾期后每12小时收取0.5元，3元封顶；会员用户可办理月卡5元、季卡12元，享有7天免费存放服务。",
+              "articleId": "111",
+              "eventId": "03d2627101d740d3b2d3b352d03aa855"
+            },
+            {
+              "id": "053518c46649426a8d32350d1a9e958a",
+              "date": "2020-05-09 00:00:00",
+              "title": "快递柜收费时代来了！丰巢：超半天就收，3元封顶！",
+              "summary": "最近，传出了丰巢拟收购中邮智递的消息，而且收购完成后，快递柜的两大巨头丰巢和速递易将实现整合，形成一家独大局面。目前，这两家快递柜都对超时取件收取一定的保管费，那么快递柜寡头出现后，快件投递进快递柜会不会成为行业趋势？市民对此又有何看法呢？",
+              "articleId": "333",
+              "eventId": "03d2627101d740d3b2d3b352d03aa855"
+            },
+            {
+              "id": "d23dc0faac1146afad600dc32bf92714",
+              "date": "2020-05-09 00:00:00",
+              "title": "快递柜进入“收费时代”？网友吵翻天",
+              "summary": "深圳市丰巢科技有限公司（下简称丰巢）将于4月30日推出会员服务，普通用户可以免费保管用户包裹12小时，超时后，每12小时收取0.5元，3元封顶，会员用户月卡每月5元，季卡12元，7天长时存放。4月29日，相关消息经媒体报道后引发舆论争议。",
+              "articleId": "222",
+              "eventId": "03d2627101d740d3b2d3b352d03aa855"
+            },
+            {
+              "id": "2d1852cf12884046964fc4474aada958",
+              "date": "2020-05-08 00:00:00",
+              "title": "三问丰巢超时收费：智能快递柜全面开启“收费时代”，还有多远？",
+              "summary": "央广网北京5月7日消息(记者王晶)在疫情期间,无接触配送的兴起,再次凸显了快递柜的重要性。但眼下,“免费的午餐”要结束了。",
+              "articleId": "444",
+              "eventId": "03d2627101d740d3b2d3b352d03aa855"
+            }
+          ],
+          "screenEventEmotionVos": [
+            {
+              "id": "1636082670974e7ea08bd31525f43560",
+              "emotionValue": -15,
+              "date": "2020-04-28 00:00:00",
+              "eventId": "03d2627101d740d3b2d3b352d03aa855"
+            },
+            {
+              "id": "0362de354b2646f3bf664d9486100a36",
+              "emotionValue": -5,
+              "date": "2020-04-29 00:00:00",
+              "eventId": "03d2627101d740d3b2d3b352d03aa855"
+            },
+            {
+              "id": "718f697eb7cc465b9b633db829110a1e",
+              "emotionValue": -10,
+              "date": "2020-04-30 00:00:00",
+              "eventId": "03d2627101d740d3b2d3b352d03aa855"
+            },
+            {
+              "id": "d1843a90d1c5410c87be504c2b22b642",
+              "emotionValue": -12,
+              "date": "2020-05-01 00:00:00",
+              "eventId": "03d2627101d740d3b2d3b352d03aa855"
+            },
+            {
+              "id": "62d9c9dd3d7341d2b7e9d326bff3cc29",
+              "emotionValue": -7,
+              "date": "2020-05-02 00:00:00",
+              "eventId": "03d2627101d740d3b2d3b352d03aa855"
+            }
+          ],
+          "screenEventPropagationAnalysisVos": [
+            {
+              "id": "cf7c35496050435eb68a8baf2281effd",
+              "date": "2020-04-28 00:00:00",
+              "reportAmount": 50,
+              "eventId": "03d2627101d740d3b2d3b352d03aa855"
+            },
+            {
+              "id": "c6acb7718b7f4ed99dee22bf26e53470",
+              "date": "2020-04-29 00:00:00",
+              "reportAmount": 146,
+              "eventId": "03d2627101d740d3b2d3b352d03aa855"
+            },
+            {
+              "id": "bba77affd4c641c8acd7e6ef1d4822c4",
+              "date": "2020-04-30 00:00:00",
+              "reportAmount": 263,
+              "eventId": "03d2627101d740d3b2d3b352d03aa855"
+            },
+            {
+              "id": "9d43fa2fefa94de5b66f652a693d5cb2",
+              "date": "2020-05-01 00:00:00",
+              "reportAmount": 349,
+              "eventId": "03d2627101d740d3b2d3b352d03aa855"
+            },
+            {
+              "id": "e5686a352f4f4d028b9e66b4d628c174",
+              "date": "2020-05-02 00:00:00",
+              "reportAmount": 553,
+              "eventId": "03d2627101d740d3b2d3b352d03aa855"
+            }
+          ],
+          "articleChannel": {
+            "微信": 25000,
+            "客户端": 20000,
+            "数字报": 15000,
+            "网站": 35000
+          }
+        },
+        {
+          "eventId": "0c519ea0997748a186b1b7bf99bcf6c6",
+          "eventName": "暴涨40％！雷军斩获第4家上市公司 身价超770亿",
+          "eventPlace": "深圳市;杭州市;上海市",
+          "eventTime": "2020-04-30 00:00:00",
+          "eventStatisticsStartTime": "2020-04-28 00:00:00",
+          "eventStatisticsEndTime": "2020-05-28 00:00:00",
+          "eventPerson": "马云;马化腾;雷军",
+          "eventInstitutions": "阿里巴巴;腾讯;小米",
+          "eventSummary": "深圳市丰巢科技有限公司（下简称丰巢）将于4月30日推出会员服务，普通用户可以免费保管用户包裹12小时，超时后，每12小时收取0.5元，3元封顶，会员用户月卡每月5元，季卡12元，7天长时存放。4月29日，相关消息经媒体报道后引发舆论争议。",
+          "eventCover": "https://pics3.baidu.com/feed/bf096b63f6246b60644d33177d638c4a500fa2b0.jpeg?token=7a6912445cd6c2d2757cf8775541f0d3",
+          "relatedInstitution": "阿里巴巴;腾讯;小米",
+          "relatedPerson": "马云;马化腾;雷军",
+          "relatedPlace": "杭州;北京;武汉",
+          "relatedDepartmentCount": 3,
+          "relatedDepartmentFirst": "阿里巴巴",
+          "relatedDepartmentMain": "腾讯",
+          "screenEventTrackVos": [
+            {
+              "id": "2b9bad35779a4943999280d18c941e80",
+              "date": "2020-05-11 00:00:00",
+              "title": "快递柜使用步入“收费时代” 一步之遥为何多出一笔费用",
+              "summary": "自4月30日起，“丰巢”快递柜也开始收费了：普通用户可免费存放12小时，逾期后每12小时收取0.5元，3元封顶；会员用户可办理月卡5元、季卡12元，享有7天免费存放服务。",
+              "articleId": "111",
+              "eventId": "0c519ea0997748a186b1b7bf99bcf6c6"
+            },
+            {
+              "id": "c9b421be462d432d91f06cc713aa7132",
+              "date": "2020-05-09 00:00:00",
+              "title": "快递柜收费时代来了！丰巢：超半天就收，3元封顶！",
+              "summary": "最近，传出了丰巢拟收购中邮智递的消息，而且收购完成后，快递柜的两大巨头丰巢和速递易将实现整合，形成一家独大局面。目前，这两家快递柜都对超时取件收取一定的保管费，那么快递柜寡头出现后，快件投递进快递柜会不会成为行业趋势？市民对此又有何看法呢？",
+              "articleId": "333",
+              "eventId": "0c519ea0997748a186b1b7bf99bcf6c6"
+            },
+            {
+              "id": "f04833dcd3a345a08fafb4d7de1152c2",
+              "date": "2020-05-09 00:00:00",
+              "title": "快递柜进入“收费时代”？网友吵翻天",
+              "summary": "深圳市丰巢科技有限公司（下简称丰巢）将于4月30日推出会员服务，普通用户可以免费保管用户包裹12小时，超时后，每12小时收取0.5元，3元封顶，会员用户月卡每月5元，季卡12元，7天长时存放。4月29日，相关消息经媒体报道后引发舆论争议。",
+              "articleId": "222",
+              "eventId": "0c519ea0997748a186b1b7bf99bcf6c6"
+            },
+            {
+              "id": "d84b357f1e85444eab2d7c8ff0c9e96c",
+              "date": "2020-05-08 00:00:00",
+              "title": "三问丰巢超时收费：智能快递柜全面开启“收费时代”，还有多远？",
+              "summary": "央广网北京5月7日消息(记者王晶)在疫情期间,无接触配送的兴起,再次凸显了快递柜的重要性。但眼下,“免费的午餐”要结束了。",
+              "articleId": "444",
+              "eventId": "0c519ea0997748a186b1b7bf99bcf6c6"
+            }
+          ],
+          "screenEventEmotionVos": [
+            {
+              "id": "17e67cf668cb457098275da582079863",
+              "emotionValue": -15,
+              "date": "2020-04-28 00:00:00",
+              "eventId": "0c519ea0997748a186b1b7bf99bcf6c6"
+            },
+            {
+              "id": "05a47c4b296c4a9f94911d475e54079e",
+              "emotionValue": -5,
+              "date": "2020-04-29 00:00:00",
+              "eventId": "0c519ea0997748a186b1b7bf99bcf6c6"
+            },
+            {
+              "id": "297c8e74281a4445a919e99d168ca0cf",
+              "emotionValue": -10,
+              "date": "2020-04-30 00:00:00",
+              "eventId": "0c519ea0997748a186b1b7bf99bcf6c6"
+            },
+            {
+              "id": "47c59283c454471eb3dda0488dc4af5c",
+              "emotionValue": -12,
+              "date": "2020-05-01 00:00:00",
+              "eventId": "0c519ea0997748a186b1b7bf99bcf6c6"
+            },
+            {
+              "id": "8b3cd97274fc46f68e8b3e5cb4031930",
+              "emotionValue": -7,
+              "date": "2020-05-02 00:00:00",
+              "eventId": "0c519ea0997748a186b1b7bf99bcf6c6"
+            }
+          ],
+          "screenEventPropagationAnalysisVos": [
+            {
+              "id": "234fa62f491f45e8abaa258fd2c9d3a5",
+              "date": "2020-04-28 00:00:00",
+              "reportAmount": 50,
+              "eventId": "0c519ea0997748a186b1b7bf99bcf6c6"
+            },
+            {
+              "id": "172cefbf95b1497ba0d1ae505035618c",
+              "date": "2020-04-29 00:00:00",
+              "reportAmount": 146,
+              "eventId": "0c519ea0997748a186b1b7bf99bcf6c6"
+            },
+            {
+              "id": "275a022000b14663a8fc90229e229bd4",
+              "date": "2020-04-30 00:00:00",
+              "reportAmount": 263,
+              "eventId": "0c519ea0997748a186b1b7bf99bcf6c6"
+            },
+            {
+              "id": "f5796aade7cb41ba89b61d0220fa1515",
+              "date": "2020-05-01 00:00:00",
+              "reportAmount": 349,
+              "eventId": "0c519ea0997748a186b1b7bf99bcf6c6"
+            },
+            {
+              "id": "5c28fe945ee44d389df874228ea3d6cf",
+              "date": "2020-05-02 00:00:00",
+              "reportAmount": 553,
+              "eventId": "0c519ea0997748a186b1b7bf99bcf6c6"
+            }
+          ],
+          "articleChannel": {
+            "微信": 25000,
+            "客户端": 20000,
+            "数字报": 15000,
+            "网站": 35000
+          }
+        }
+      ]
+     
+    }
+  }
+}
