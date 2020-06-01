@@ -52,8 +52,10 @@ module.exports = Event.extend(function Base(container, config) {
         html+= `<img class="eventCover" src="${data[i]["eventCover"]}" />`
         html+= `<p class="eventName">${data[i]["eventName"]}</p>`
         html+= `<p class="eventTime">${data[i]["eventTime"]}</p>`
+        html+= `<div class="hot-div">`
         html+=`<img class="hot-icon" src="http://datav.oss-cn-hangzhou.aliyuncs.com/uploads/images/a0a96edce5c10f3c3447a6e2e7cc764f.png" />`
         html+=`<span class="relatedDepartmentCount">${data[i]["relatedDepartmentCount"]}</span>`
+        html+=`</div>`
         html+=`</div>`
       }
     html+= `</div></div></div>`
@@ -66,7 +68,7 @@ module.exports = Event.extend(function Base(container, config) {
       spaceBetween: 30,
       centeredSlides: true,
       direction: 'vertical',
-      autoplay: true,
+      autoplay: false,
 	    loop: true,
       pagination: {
         el: '.swiper-pagination',
